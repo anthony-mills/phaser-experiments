@@ -1,6 +1,8 @@
 var game = new Phaser.Game(800, 350, Phaser.AUTO, 'gameContainer', { preload: preload, create: create, update: update, render: render });
 
 function preload() {
+    game.time.advancedTiming = true;
+
     game.load.video('octopus', 'assets/octonaut.mp4', 'canplaythrough', true);
     game.load.image('submarine', 'assets/submarine.png');
     game.load.bitmapFont('digital_font','assets/fonts/font.png', 'assets/fonts/font.fnt');
@@ -66,5 +68,5 @@ function update() {
 }
 
 function render() {
-	game.debug.text(game.time.fps, 2, 14, "#00ff00");
+	game.debug.text('FPS: ' + game.time.fps, 2, 14, "#00ff00");
 }
