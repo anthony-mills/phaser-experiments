@@ -10,6 +10,7 @@ Either way I am releasing my experiments as open source, so if you feel like you
 
 * Octopus Video Overlay - An experiement intented to test the effect of using a sprite with transparent areas ( or windows ) to control the perspective of an underlying playing video.
 * Inkscape Shapes - A random assortment of shapes drawn using Inkscape 0.91 then exported using the HTML5 Canvas feature. With a small amount of modification i.e adding the data to a sprite for use in Phaser.
+* Precedural Dungeon - Procedural dungeon generator first created for my Ludum Dare #38 entry [Kenny Cockroach](http://kenny.bigsoutherly.com).
 
 # Credits
 
